@@ -1,0 +1,26 @@
+[
+  {
+    "cardId": "1",
+    "title": "Figma"
+  },
+  {
+    "cardId": "2",
+    "title": "GitHub"
+  },
+  {
+    "cardId": "3",
+    "title": "Spring Boot"
+  },
+  {
+    "cardId": "4",
+    "title": "IntelliJ IDEA"
+  },
+  {
+    "cardId": "5",
+    "title": "React"
+  },
+  {
+    "cardId": "6",
+    "title": "Postman"
+  }
+]
