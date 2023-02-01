@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Mi-Portafolio
 
 Link page:
@@ -25,31 +26,32 @@ https://fabrib26.github.io/Mi-Portafolio/
 -Contacto
 =======
 # Getting Started with Create React App
+=======
+# Mi-Portafolio
+>>>>>>> 952ab23 (fixed errors)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Link page:
+https://fabrib26.github.io/Mi-Portafolio/
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Tecnologias:
 
-### `npm start`
+-React v18
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-NPM v8.19
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Información:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-Inicio
 
-### `npm run build`
+-Herramientas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-Proyectos
 
+<<<<<<< HEAD
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
@@ -95,3 +97,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 >>>>>>> ddec1e3 (Initialize project using Create React App)
+=======
+-Contacto
+>>>>>>> 952ab23 (fixed errors)

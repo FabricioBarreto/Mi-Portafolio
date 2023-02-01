@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .contactMeConatiner {
   display: flex;
   flex-direction: column;
@@ -102,3 +103,109 @@
     padding: 5px 10px;
   }
 }
+=======
+.contactMeConatiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.titleContactMe {
+  font-size: 45px;
+  margin: auto;
+  color: #fff;
+  text-shadow: -3px 3px 3px #1f91aab9, 2px 2px 3px #21b3d4, 1px 1px 1px #21b3d4;
+}
+
+.contactMeForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 15px auto;
+  align-items: start;
+  text-align: center;
+  width: 55%;
+}
+
+.formLabel {
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: -1px 2px 2px #21b3d4;
+}
+
+.name,
+.email,
+.message {
+  font-size: 25px;
+  color: #000;
+  border: none;
+  border-radius: 50px;
+  box-shadow: -1px 1px 1px 1px #21b3d4;
+  padding: 10px;
+  margin: 8px 0;
+  width: 100%;
+}
+
+.message {
+  height: 200px;
+  resize: none;
+  border-radius: 20px;
+}
+
+.contentInfo {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.buttonSubmit {
+  box-shadow: -1px 1px 1px 1px #21b3d4;
+  border-radius: 20px;
+  font-size: 25px;
+  border: 1px solid #21b3d4;
+  background: #262626;
+  padding: 5px 20px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 40%;
+  margin: 15px auto;
+}
+
+.buttonSubmit:hover {
+  background: #202020;
+  box-shadow: -1px 1px 1px 1px #0c4a58;
+}
+
+@media (max-width: 768px) {
+  .contactMeForm {
+    width: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  .titleContactMe {
+    font-size: 35px;
+  }
+
+  .toolsSection {
+    display: flex;
+  }
+
+  .name,
+  .email,
+  .message {
+    width: 100%;
+    margin: 5px auto;
+  }
+
+  .buttonSubmit {
+    margin: 20px auto;
+    align-items: center;
+    padding: 5px 10px;
+  }
+}
+>>>>>>> 952ab23 (fixed errors)

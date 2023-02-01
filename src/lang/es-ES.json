@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "header.linksHome": "Inicio",
   "header.linksTools": "Herramientas",
@@ -38,4 +39,46 @@
   "contactMe.FormPlaceHolderEmail": "Correo",
   "contactMe.FormPlaceHolderMessage": "Mensaje",
   "contactMe.buttonSubmit": "Enviar"
+=======
+{
+  "header.linksHome": "Inicio",
+  "header.linksTools": "Herramientas",
+  "header.linksProjects": "Proyectos",
+  "header.linksContact": "Contacto",
+
+  "home.name": "Soy Fabricio",
+  "home.abautMe": "Desarrollador JAVA back-end por más de 3 años.",
+  "home.dowloadCV": "Descargar CV",
+  
+  "tools.title":"Herramientas",
+
+  "tools.toolResume1":"Utilizo Figma para la maquetacion y el diseño de mis Apps.",
+  "tools.toolResume2":"Utilizo GitHub para el control de versiones.",
+  "tools.toolResume3":"Utilizo Spring Boot como framework principal back-end.",
+  "tools.toolResume4":"Utilizo IntelliJ IDEA para trabajar y escribir mi codigo.",
+  "tools.toolResume5":"Utilizo React como libreria principal para el fron-end.",
+  "tools.toolResume6":"Utilizo Postman para las pruebas de mis aplicaciones.",
+
+  "projectCard.btnResume":"Resumen",
+  
+  "projects.titleProjects": "Proyectos Destacados",
+
+  "projects.projectTitle1":"API de Publicaciones",
+  "projects.projectReume1":"API Rest que permite pubicar y crear comentarios.",
+  
+  "projects.projectTitle2":"Web de Peliculas",
+  "projects.projectReume2":"Sitio web que consume una API de peliculas.",
+
+  "projects.projectTitle3":"Proyecto Disney",
+  "projects.projectReume3":"API Rest que permite conocer acerca de los personajes de Disney.",
+  
+  "projects.projectTitle4":"Encriptador",
+  "projects.projectReume4":"App web que permite encriptar y desencriptar mensajes.",
+
+  "contactMe.titleContacme": "Contactame",
+  "contactMe.FormPlaceHolderFullName": "Nombre Completo",
+  "contactMe.FormPlaceHolderEmail": "Correo",
+  "contactMe.FormPlaceHolderMessage": "Mensaje",
+  "contactMe.buttonSubmit": "Enviar"
+>>>>>>> 952ab23 (fixed errors)
 }

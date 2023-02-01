@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .footer {
   padding: 15px 0 0;
   background: #2e2e2e;
@@ -40,3 +41,47 @@
     font-size: 15px;
   }
 }
+=======
+.footer {
+  padding: 15px 0 0;
+  background: #2e2e2e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-radius: 20px 20px 0 0;
+}
+
+.linksFooter {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  font-size: 10px;
+}
+
+.linksFooter a {
+  margin: 0 15px;
+}
+
+.coppy {
+  text-shadow: -2px 2px 2px #21b3d3;
+  font-weight: bold;
+  font-size: 30px;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .linksFooter a img {
+    width: 30px;
+  }
+
+  .linksFooter a {
+    margin: 0 10px;
+  }
+
+  .coppy {
+    font-size: 15px;
+  }
+}
+>>>>>>> 952ab23 (fixed errors)

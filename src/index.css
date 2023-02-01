@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 html {
   background: #262626;
 }
@@ -14,10 +15,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+=======
+html {
+  background: #262626;
+>>>>>>> 952ab23 (fixed errors)
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#root {
+  background: #262626;
 }
 >>>>>>> ddec1e3 (Initialize project using Create React App)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [
   {
     "cardId": "1",
@@ -15,4 +16,23 @@
     "cardId": "4",
     "linkGitHub": "https://github.com/fabrib26/Encriptador_JavaScript"
   }
+=======
+[
+  {
+    "cardId": "1",
+    "linkGitHub": "https://github.com/fabrib26/Encriptador_JavaScript"
+  },
+  {
+    "cardId": "2",
+    "linkGitHub": "https://github.com/fabrib26/Movies-Web"
+  },
+  {
+    "cardId": "3",
+    "linkGitHub": "https://github.com/fabrib26/Alkemy_Java_DisneyProject"
+  },
+  {
+    "cardId": "4",
+    "linkGitHub": "https://github.com/fabrib26/Encriptador_JavaScript"
+  }
+>>>>>>> 952ab23 (fixed errors)
 ]

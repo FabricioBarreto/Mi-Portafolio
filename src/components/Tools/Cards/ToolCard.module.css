@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .tool {
   display: flex;
   background: #282828;
@@ -76,3 +77,83 @@
     font-size: 20px;
   }
 }
+=======
+.tool {
+  display: flex;
+  background: #282828;
+  width: 300px;
+  height: 300px;
+  color: #ffffff;
+  border-radius: 25px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+  border: 2px solid #f7f7f7;
+  box-shadow: -1px 3px 3px 3px #21b3d3;
+  border-radius: 50%;
+}
+
+.tool:hover {
+  background: rgb(54, 54, 54);
+}
+
+.tool img {
+  margin: auto;
+  width: 210px;
+  height: 210px;
+}
+
+.infoContainer {
+  background: #282828;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 2px solid #f7f7f7;
+  box-shadow: -1px 3px 3px 3px #21b3d3;
+  border-radius: 50%;
+}
+
+.title {
+  text-shadow: -1px 2px 2px #21b3d3;
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.resume {
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.deactivate {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .tool,
+  .infoContainer {
+    width: 250px;
+    height: 250px;
+  }
+
+  .tool img {
+    width: 170px;
+    height: 170px;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .resume {
+    font-size: 20px;
+  }
+}
+>>>>>>> 952ab23 (fixed errors)
