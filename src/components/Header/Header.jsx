@@ -10,16 +10,14 @@ export function Header() {
   const lang = useContext(langContext);
 
   const actionToggle = () => {
-    const links = document.getElementById("links");
-    links.classList.toggle("Header_activeToggle__-itv3");
+    document.getElementById("links").classList.toggle("Header_activeToggle__ALYGS");
   }
 
   const closeMenu = (e) => {
-    const links = document.getElementById("links");
-    if (e.target.classList.contains("Header_line__vnQOP") || e.target.classList.contains("Header_buttonToggle__X+eP1")) {
+    if (e.target.classList.contains("Header_line__7UJvP") || e.target.classList.contains("Header_buttonToggle__BgmUc")) {
       return null;
     }
-    links.classList.remove("Header_activeToggle__-itv3");
+    document.getElementById("links").classList.remove("Header_activeToggle__ALYGS");
   }
 
   document.body.addEventListener("click", closeMenu);

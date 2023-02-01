@@ -9,20 +9,19 @@ export function ProjectCard({ title, resume, projectImg, linkGitHub, cardId }) {
 
     for (let i = 1; i <= 4; i++) {
       if (i !== cardId) {
-        document.getElementById("cardResume" + i).classList.add("ProjectCard_disabled__poF4A");
+        document.getElementById("cardResume" + i).classList.add("ProjectCard_disabled__u6rIZ");
       }
     }
-    document.getElementById("cardResume" + cardId).classList.toggle("ProjectCard_disabled__poF4A");
+    document.getElementById("cardResume" + cardId).classList.toggle("ProjectCard_disabled__u6rIZ");
   }
 
   const addAllDisabled = e => {
-
-    if (e.target.classList.contains("ProjectCard_btn__ln72g")) {
+    if (e.target.classList.contains("ProjectCard_btn__7R4hE")) {
       return;
     }
 
     for (let i = 1; i <= 4; i++) {
-      document.getElementById("cardResume" + i).classList.add("ProjectCard_disabled__poF4A");
+      document.getElementById("cardResume" + i).classList.add("ProjectCard_disabled__u6rIZ");
     }
   }
 
