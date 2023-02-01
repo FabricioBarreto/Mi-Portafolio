@@ -10,14 +10,14 @@ export function Header() {
   const lang = useContext(langContext);
 
   const actionToggle = () => {
-    document.getElementById("links").classList.toggle("Header_activeToggle__ALYGS");
+    document.getElementById("links").classList.toggle("Header_activeToggle__isdSN");
   }
 
   const closeMenu = (e) => {
-    if (e.target.classList.contains("Header_line__7UJvP") || e.target.classList.contains("Header_buttonToggle__BgmUc")) {
+    if (e.target.classList.contains("Header_line__U5Pv9") || e.target.classList.contains("Header_buttonToggle__M2qOc")) {
       return null;
     }
-    document.getElementById("links").classList.remove("Header_activeToggle__ALYGS");
+    document.getElementById("links").classList.remove("Header_activeToggle__isdSN");
   }
 
   document.body.addEventListener("click", closeMenu);
