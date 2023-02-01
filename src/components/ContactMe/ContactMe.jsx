@@ -89,7 +89,7 @@ export function ContactMe() {
           />
         </button>
         <input type="hidden" name="_captcha" value="false"></input>
-        <input type="hidden" name="_next" value="http://localhost:3000/"></input>
+        <input type="hidden" name="_next" value="https://fabrib26.github.io/Mi-Portafolio/"></input>
       </form>
     </div>
   )
