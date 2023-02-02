@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Mi-Portafolio/static/css/main.1e14c5bb.css",
-    "main.js": "/Mi-Portafolio/static/js/main.8e71b20f.js",
+    "main.js": "/Mi-Portafolio/static/js/main.8320a339.js",
     "static/media/FabricioBarretoCV.pdf": "/Mi-Portafolio/static/media/FabricioBarretoCV.e360129ffe2fca7f8c22.pdf",
     "static/media/Perfil.jpeg": "/Mi-Portafolio/static/media/Perfil.06ca4ae2fe835abb6ca1.jpeg",
     "static/media/Publicaciones.jpg": "/Mi-Portafolio/static/media/Publicaciones.03fba695b5e90044e46d.jpg",
@@ -14,10 +14,10 @@
     "static/media/GitHub.png": "/Mi-Portafolio/static/media/GitHub.4d92a1f53c3010040224.png",
     "index.html": "/Mi-Portafolio/index.html",
     "main.1e14c5bb.css.map": "/Mi-Portafolio/static/css/main.1e14c5bb.css.map",
-    "main.8e71b20f.js.map": "/Mi-Portafolio/static/js/main.8e71b20f.js.map"
+    "main.8320a339.js.map": "/Mi-Portafolio/static/js/main.8320a339.js.map"
   },
   "entrypoints": [
     "static/css/main.1e14c5bb.css",
-    "static/js/main.8e71b20f.js"
+    "static/js/main.8320a339.js"
   ]
 }
