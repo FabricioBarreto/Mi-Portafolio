@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Mi-Portafolio/static/css/main.1e14c5bb.css",
-    "main.js": "/Mi-Portafolio/static/js/main.7e0172d4.js",
-    "static/media/FabricioBarretoCV.pdf": "/Mi-Portafolio/static/media/FabricioBarretoCV.d635352e226125ecf7a9.pdf",
+    "main.js": "/Mi-Portafolio/static/js/main.77cef334.js",
+    "static/media/FabricioBarretoCV.pdf": "/Mi-Portafolio/static/media/FabricioBarretoCV.1df26d0c1057f3e1823b.pdf",
     "static/media/Perfil.jpeg": "/Mi-Portafolio/static/media/Perfil.06ca4ae2fe835abb6ca1.jpeg",
     "static/media/Publicaciones.jpg": "/Mi-Portafolio/static/media/Publicaciones.03fba695b5e90044e46d.jpg",
     "static/media/ONG.jpg": "/Mi-Portafolio/static/media/ONG.494c9f4ca66c6fbc4525.jpg",
@@ -14,10 +14,10 @@
     "static/media/GitHub.png": "/Mi-Portafolio/static/media/GitHub.4d92a1f53c3010040224.png",
     "index.html": "/Mi-Portafolio/index.html",
     "main.1e14c5bb.css.map": "/Mi-Portafolio/static/css/main.1e14c5bb.css.map",
-    "main.7e0172d4.js.map": "/Mi-Portafolio/static/js/main.7e0172d4.js.map"
+    "main.77cef334.js.map": "/Mi-Portafolio/static/js/main.77cef334.js.map"
   },
   "entrypoints": [
     "static/css/main.1e14c5bb.css",
-    "static/js/main.7e0172d4.js"
+    "static/js/main.77cef334.js"
   ]
 }
