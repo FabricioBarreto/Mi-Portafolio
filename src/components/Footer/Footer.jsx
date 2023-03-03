@@ -11,7 +11,7 @@ export function Footer() {
       <nav>
         <ul className={style.linksFooter}>
           <li><a href="https://www.linkedin.com/in/fabricio-barreto-9082b0187/"><img src={LinkedinFooter} alt="" /></a></li>
-          <li><a href="https://github.com/fabrib26"><img src={GitHubFooter} alt="" /></a></li>
+          <li><a href="https://github.com/fabriciobarreto"><img src={GitHubFooter} alt="" /></a></li>
           <li><a href="https://www.facebook.com/fabri.barreto"><img src={FacebookFooter} alt="" /></a></li>
           <li><a href="https://twitter.com/Fabri2610"><img src={TwitterFooter} alt="" /></a></li>
           <li><a href="https://www.instagram.com/fabrib_26/"><img src={InstagramFooter} alt="" /></a></li>

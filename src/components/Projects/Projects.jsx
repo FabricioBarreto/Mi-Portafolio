@@ -2,7 +2,7 @@ import { ProjectCard } from "./Cards/ProjectCard";
 import style from "./Projects.module.css";
 import { FormattedMessage } from "react-intl";
 import img1 from "./../../img/Publicaciones.jpg";
-import img2 from "./../../img/Movies.jpg";
+import img2 from "./../../img/ONG.jpg";
 import img3 from "./../../img/Disney.jpg";
 import img4 from "./../../img/Encriptor.jpg";
 import ProjectsJson from "./ProjectsJson.json";
