@@ -1,7 +1,7 @@
 # Mi-Portafolio
 
 Link page:
-https://fabriciobarreto.github.io/Mi-Portafolio/
+Link page: https://FabricioBarreto.github.io/Mi-Portafolio/
 
 ---
 
