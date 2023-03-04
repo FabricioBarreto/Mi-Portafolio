@@ -1,0 +1,41 @@
+{
+  "header.linksHome": "Home",
+  "header.linksTools": "Tools",
+  "header.linksProjects": "Projects",
+  "header.linksContact": "Contact",
+
+  "home.name": "I'm Fabricio",
+  "home.abautMe": "JAVA back-end developer for more than 3 years.",
+  "home.dowloadCV":"Dowload CV",
+
+  "tools.title":"Tools",
+
+ "tools.toolResume1":"I use Figma for the layout and design of my Apps.",
+  "tools.toolResume2":"I use GitHub for version control.",
+  "tools.toolResume3":"I use Spring Boot as the main back-end framework.",
+  "tools.toolResume4":"I use IntelliJ IDEA to work and write my code.",
+  "tools.toolResume5":"I use React as the main library for the front-end.",
+  "tools.toolResume6":"I use Postman for testing my apps.",
+
+  "projectCard.btnResume":"Resume",
+
+  "projects.titleProjects": "Featured projects",
+
+  "projects.projectTitle1":"Publications API",
+  "projects.projectReume1":"API Rest that allows you to publish and create comments.",
+  
+  "projects.projectTitle2":"NGO Somos Más",
+  "projects.projectReume2":"Rest API for NGO Somos más, teamwork under SCRUM methodology.",
+
+  "projects.projectTitle3":"Disney Project",
+  "projects.projectReume3":"API that allows to know about Disney characters.",
+  
+  "projects.projectTitle4":"Encryptor",
+  "projects.projectReume4":"Web app that allows you to encrypt and decrypt messages.",
+
+  "contactMe.titleContacme": "Contact Me",
+  "contactMe.FormPlaceHolderFullName": "Full Name",
+  "contactMe.FormPlaceHolderEmail": "E-mail",
+  "contactMe.FormPlaceHolderMessage": "Message",
+  "contactMe.buttonSubmit": "Send"
+}
