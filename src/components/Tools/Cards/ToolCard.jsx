@@ -6,22 +6,21 @@ export function ToolCard({ tool, title, resume, cardId }) {
 
     for (let i = 1; i <= 6; i++) {
       if (i !== cardId) {
-        document.getElementById("infoContainer" + i).classList.add("ToolCard_deactivate__z1dHm");
-        document.getElementById("tool" + i).classList.remove("ToolCard_deactivate__z1dHm");
+        document.getElementById("infoContainer" + i).style.display = "none";
+        document.getElementById("tool" + i).style.display = "flex";
       }
     }
-    document.getElementById("tool" + cardId).classList.toggle("ToolCard_deactivate__z1dHm");
-    document.getElementById("infoContainer" + cardId).classList.toggle("ToolCard_deactivate__z1dHm");
+    document.getElementById("tool" + cardId).style.display = "none";
+    document.getElementById("infoContainer" + cardId).style.display = "flex";
   }
 
   const deactivateAll = e => {
-    if (e.target.classList.contains("ToolCard_tool__ggGEX") ||
-      e.target.classList.contains("toolImg")) {
+    if (e.target.classList.contains("toolImg")) {
       return;
     }
     for (let i = 1; i <= 6; i++) {
-      document.getElementById("infoContainer" + i).classList.add("ToolCard_deactivate__z1dHm");
-      document.getElementById("tool" + i).classList.remove("ToolCard_deactivate__z1dHm");
+      document.getElementById("infoContainer" + i).style.display = "none";
+      document.getElementById("tool" + i).style.display = "flex";
     }
   }
 

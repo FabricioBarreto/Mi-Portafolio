@@ -2,14 +2,13 @@
   background: #262626;
   color: #fff;
   display: flex;
-  margin-top: 100px;
+  margin-top: 50px;
   align-items: center;
+  padding-top: 60px;
 }
 
 .profilePhoto {
-  border-radius: 100%;
-  width: 300px;
-  box-shadow: -3px 3px 3px 4px #09616871, 2px 2px 3px #21b2d3a2;
+  width: 350px;
 }
 
 .infoContainer {
@@ -19,12 +18,12 @@
 }
 
 .name {
-  font-size: 60px;
+  font-size: 3rem;
   text-shadow: -3px 3px 3px #1f91aab9, 2px 2px 3px #21b3d4, 1px 1px 1px #21b3d4;
 }
 
 .abautMe {
-  font-size: 35px;
+  font-size: 2rem;
   display: inline-block;
   width: 70%;
   margin: 2px 0 10px;
@@ -32,12 +31,11 @@
 
 .btnDowload {
   display: inline-block;
-  width: 250px;
+  width: 200px;
   text-decoration: none;
   text-align: center;
-  transition: all linear 0.2s;
   cursor: pointer;
-  font-size: 25px;
+  font-size: 1rem;
   text-transform: uppercase;
   color: #fff;
   border: 3px solid #21b3d3;
@@ -47,7 +45,7 @@
 }
 
 .btnDowload:hover {
-  transition: all linear 0.3s;
+  transition: all 0.5s;
   background: #03788d9c;
   color: rgb(255, 255, 255);
 }
@@ -62,6 +60,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    text-align: center;
   }
 
   .infoContainer {

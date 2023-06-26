@@ -9,19 +9,19 @@ export function ProjectCard({ title, resume, projectImg, linkGitHub, cardId }) {
 
     for (let i = 1; i <= 4; i++) {
       if (i !== cardId) {
-        document.getElementById("cardResume" + i).classList.add("ProjectCard_disabled__yu+vV");
+        document.getElementById("cardResume" + i).style.display = "none";
       }
     }
-    document.getElementById("cardResume" + cardId).classList.toggle("ProjectCard_disabled__yu+vV");
+    document.getElementById("cardResume" + cardId).style.display = "flex";
   }
 
   const addAllDisabled = e => {
-    if (e.target.classList.contains("ProjectCard_btn__-ZH0O")) {
+    if (e.target.id === "btnResume1" || e.target.id === "btnResume2" || e.target.id === "btnResume3" || e.target.id === "btnResume4") {
       return;
     }
 
     for (let i = 1; i <= 4; i++) {
-      document.getElementById("cardResume" + i).classList.add("ProjectCard_disabled__yu+vV");
+      document.getElementById("cardResume" + i).style.display = "none";
     }
   }
 
@@ -42,7 +42,7 @@ export function ProjectCard({ title, resume, projectImg, linkGitHub, cardId }) {
           </a>
         </div>
       </div>
-      <div className={style.resume + " " + style.disabled} id={"cardResume" + cardId}>
+      <div className={style.resume} id={"cardResume" + cardId}>
         <img src={Close} alt="Close" className={style.close} id="btnClose" />
         <h2 className={style.title}>{title}</h2>
         <p>{resume}</p>

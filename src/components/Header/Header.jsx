@@ -9,28 +9,21 @@ export function Header() {
 
   const lang = useContext(langContext);
 
-  const actionToggle = () => {
-    document.getElementById("links").classList.toggle("Header_activeToggle__isdSN");
-  }
-
-  const closeMenu = (e) => {
-    if (e.target.classList.contains("Header_line__U5Pv9") || e.target.classList.contains("Header_buttonToggle__M2qOc")) {
-      return null;
+  const toggleNav = (e) => {
+    if (e.target.id === "line" || e.target.id === "buttonToggle") {
+      document.getElementById("nav").classList.remove("Header_hidden__r-lc4");
+      // document.getElementById("links").classList.toggle("Header_active__XM0aX");
+      return;
     }
-    document.getElementById("links").classList.remove("Header_activeToggle__isdSN");
+    document.getElementById("nav").classList.add("Header_hidden__r-lc4");
+    // document.getElementById("links").classList.remove("Header_active__XM0aX");
   }
 
-  document.body.addEventListener("click", closeMenu);
+  document.body.addEventListener("click", toggleNav);
 
   return (
-    <header className={style.headerContainer + " container fixed-top"}>
-      <nav className={style.navContainer}>
-        <a className={style.brand} href="#home">FB</a>
-        <div className={style.buttonToggle} onClick={actionToggle}>
-          <div className={style.line}></div>
-          <div className={style.line}></div>
-          <div className={style.line}></div>
-        </div>
+    <header className={style.headerContainer}>
+      <nav className={style.navContainer + " " + style.hidden} id="nav">
         <ul className={style.links} id="links">
           <li><a className={style.link} href="#home">
             <FormattedMessage
@@ -62,6 +55,11 @@ export function Header() {
           </div>
         </ul>
       </nav >
+      <div className={style.buttonToggle} id="buttonToggle" onClick={toggleNav}>
+        <div className={style.line} id="line"></div>
+        <div className={style.line} id="line"></div>
+        <div className={style.line} id="line"></div>
+      </div>
     </header >
   )
 }

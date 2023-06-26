@@ -9,7 +9,7 @@ import style from "./App.module.css"
 
 function App() {
   return (
-    <div className={style.app + " container"}>
+    <div className={style.app}>
       <Header />
       <Home />
       <Separator />
