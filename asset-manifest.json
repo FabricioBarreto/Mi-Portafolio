@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/Mi-Portafolio/static/css/main.1e14c5bb.css",
-    "main.js": "/Mi-Portafolio/static/js/main.21d210ea.js",
+    "main.css": "/Mi-Portafolio/static/css/main.62d76b04.css",
+    "main.js": "/Mi-Portafolio/static/js/main.471d6226.js",
     "static/media/FabricioBarretoCV.pdf": "/Mi-Portafolio/static/media/FabricioBarretoCV.34cbca1fe5b556e8618a.pdf",
-    "static/media/Perfil.jpeg": "/Mi-Portafolio/static/media/Perfil.2b2e4605c704ae3f5e50.jpeg",
+    "static/media/Perfil.jpeg": "/Mi-Portafolio/static/media/Perfil.ec8c725d77df5f29a716.jpeg",
     "static/media/Publicaciones.jpg": "/Mi-Portafolio/static/media/Publicaciones.03fba695b5e90044e46d.jpg",
     "static/media/ONG.jpg": "/Mi-Portafolio/static/media/ONG.494c9f4ca66c6fbc4525.jpg",
     "static/media/Disney.jpg": "/Mi-Portafolio/static/media/Disney.31e0964411212d0e33d6.jpg",
@@ -13,11 +13,11 @@
     "static/media/React.png": "/Mi-Portafolio/static/media/React.d2beff0828f0de9b693f.png",
     "static/media/GitHub.png": "/Mi-Portafolio/static/media/GitHub.4d92a1f53c3010040224.png",
     "index.html": "/Mi-Portafolio/index.html",
-    "main.1e14c5bb.css.map": "/Mi-Portafolio/static/css/main.1e14c5bb.css.map",
-    "main.21d210ea.js.map": "/Mi-Portafolio/static/js/main.21d210ea.js.map"
+    "main.62d76b04.css.map": "/Mi-Portafolio/static/css/main.62d76b04.css.map",
+    "main.471d6226.js.map": "/Mi-Portafolio/static/js/main.471d6226.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e14c5bb.css",
-    "static/js/main.21d210ea.js"
+    "static/css/main.62d76b04.css",
+    "static/js/main.471d6226.js"
   ]
 }
