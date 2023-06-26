@@ -12,11 +12,10 @@ const LangProvider = ({ children }) => {
 
   if (lang) {
     defaultLocale = lang;
-
-    if (lang === "en-US") {
-      defaultTexts = TextInInglish;
-    } else if (lang === "es-ES") {
+    if (lang === "es-ES") {
       defaultTexts = TextInSpanish;
+    } else if (lang === "en-US") {
+      defaultTexts = TextInInglish;
     } else {
       defaultTexts = TextInInglish;
       defaultLocale = "en-US";
